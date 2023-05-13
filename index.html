@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sentiment Analysis Extension</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Sentiment Analysis Extension</h1>
+      <p>Enter some text to analyze:</p>
+      <textarea id="text-input" placeholder="Type your text here"></textarea>
+      <button id="analyze-button">Analyze</button>
+      <div id="result"></div>
+      <div id="explanations">
+        <h3>Understanding the Results:</h3>
+        <ul>
+          <li><b>Sentiment:</b> A score between -1 and 1 that represents the overall sentiment of the text. A score of -1 indicates extremely negative sentiment, 0 indicates neutral sentiment, and 1 indicates extremely positive sentiment.</li>
+          <li><b>Magnitude:</b> A score between 0 and infinity that represents the overall magnitude of emotion in the text. The higher the magnitude, the more intense the emotional content of the text.</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
