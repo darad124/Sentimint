@@ -17,7 +17,7 @@
       "persistent": false
     },
     "content_scripts": [{
-      "matches": ["https://example.com/*"],
+      "matches": ["https://Sentiment.github.io"],
       "js": ["content.js"]
     }],
     "browser_action": {
