@@ -99,7 +99,8 @@ if (sentiment === 'Extremely Negative') {
         magnitudeExplanation = 'extremely high';
       }
 
-      resultDiv.innerHTML = `Sentiment: ${sentiment}<br>Score: ${score.toFixed(2)}<br>Magnitude: ${magnitude.toFixed(2)}<br> intent: ${magnitudeExplanation}`;
+      resultDiv.innerHTML = `Sentiment: <b>${sentiment}</b><br>Score: <b>${score.toFixed(2)}</b><br>Magnitude: <b>${magnitude.toFixed(2)}</b><br> intent: <b>${magnitudeExplanation}</b>`;
+
     })
     .catch(error => console.error(error));
 });
