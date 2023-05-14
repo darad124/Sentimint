@@ -2,14 +2,11 @@
   "name": "Sentiment Analyzer",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "A browser extension that performs sentiment analysis on selected text",
+  "description": "A browser extension that performs sentiment analysis on selected text.",
 
   "permissions": [
     "activeTab"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "action": {
     "default_popup": "index.html"
    

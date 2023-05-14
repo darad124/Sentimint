@@ -71,7 +71,7 @@ body {
   }
   
   body.negative {
-    color: #333333;
+    color: #FFF;
     background-image: url('/images/negative.jpeg');
   }
   

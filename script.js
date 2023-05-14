@@ -73,7 +73,7 @@ if (sentiment === 'Extremely Negative') {
 } else if (sentiment === 'Very Negative') {
   textarea.style.color = '#FF8C00';
 } else if (sentiment === 'Negative') {
-  textarea.style.color = '#333333';
+  textarea.style.color = '#FFF';
 } else if (sentiment === 'Neutral') {
   textarea.style.color = '#333833';
 } else if (sentiment === 'Positive') {
